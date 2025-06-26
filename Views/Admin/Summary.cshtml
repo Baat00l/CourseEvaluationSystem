@@ -1,0 +1,23 @@
+﻿@model List<CourseEvaluationSystem.Controllers.EvaluationSummaryViewModel>
+
+<h2>Utvärderingssammanfattning</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kurs</th>
+            <th>Antal utvärderingar</th>
+            <th>Medelbetyg</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CourseTitle</td>
+                <td>@item.TotalEvaluations</td>
+                <td>@item.AverageRating</td>
+            </tr>
+        }
+    </tbody>
+</table>
