@@ -25,4 +25,3 @@ Razor Views i kombination med Bootstrap för responsiv design.
 
 Enhetstester skrivna med xUnit som del av testdriven utveckling (TDD).
 
-Versionshantering via Git och fjärrlagring på GitHub.
