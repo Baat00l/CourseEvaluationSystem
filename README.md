@@ -19,7 +19,7 @@ ASP.NET Core MVC för applikationsstruktur och routing.
 
 Entity Framework Core i Code First-approach för databashantering.
 
-SQL Server som datalagringslösning (.mdf).
+SQL Server som datalagringslösning.
 
 Razor Views i kombination med Bootstrap för responsiv design.
 
